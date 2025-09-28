@@ -188,101 +188,131 @@
           @mi1ahha
         </p>
       </div>
+    <style>
+  .roles p span {
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+  .busy { color: red; }
+  .free { color: green; }
+  .bron { color: orange; }
+  .need { color: goldenrod; font-weight: bold; }
+</style>
 
-      <!-- Роли -->
-      <div class="roles">
-        <h2>🎭 РОЛИ</h2>
-        <p>Занято — "Занято" | Бронь — "Бронь" | Свободно — "Свободно"</p>
+<div class="roles">
+  <h2>🎭 РОЛИ</h2>
+  <p>Обозначения: 
+    <span class="busy">Занято</span> | 
+    <span class="free">Свободно</span> | 
+    <span class="bron">Бронь</span> | 
+    <span class="need">Очень нужен ★</span>
+  </p>
 
-        <h3>👤 ГГ / школьники</h3>
-        <p>
-          Маринетт Дюпен-Чен — Занято<br>
-          Адриан Агрест — Бронь<br>
-          Аля Сезар — Занято<br>
-          Нино Лейф — Свободно<br>
-          Хлоя Буржуа — Занято<br>
-          Зои Ли — Бронь<br>
-          Аликс Кубдел — Занято<br>
-          Айвен Бруэль — Свободно<br>
-          Милен Апрэль — Свободно<br>
-          Джулека Куффен — Занято<br>
-          Роуз Левилён — Занято<br>
-          Лука Куффен — Бронь<br>
-          Кагами Цуруги — Занято<br>
-          Феликс Фатом — Занято<br>
-          Ле Тьен Ким — Свободно<br>
-          Ундина — Свободно<br>
-          Лайла Росси — Свободно<br>
-          Макс Канте — Свободно<br>
-          Натаниэль Куртцберг — Занято<br>
-          Марк Ансель — Бронь<br>
-          Сабрина — Занято<br>
-          Сублим — Занято
-        </p>
+  <h3>👤 ГГ / школьники</h3>
+  <p>
+    👤Маринетт Дюпен-Чен — <span class="busy">Занято</span><br>
+    👤Адриан Агрест — <span class="busy">Занято</span><br>
+    👤Аля Сезар — <span class="busy">Занято</span><br>
+    👤Нино Лейф — <span class="busy">Занято</span><br>
+    👤Хлоя Буржуа — <span class="busy">Занято</span><br>
+    👤Зои Ли — <span class="busy">Занято</span><br>
+    👤Аликс Кубдел — <span class="busy">Занято</span><br>
+    👤Айвен Бруэль — <span class="free">Свободно</span><br>
+    👤Милен Апрэль — <span class="free">Свободно</span><br>
+    👤Джулека Куффен — <span class="busy">Занято</span><br>
+    👤Роуз Левилён — <span class="free">Свободно</span><br>
+    👤Лука Куффен — <span class="busy">Занято</span><br>
+    👤Кагами Цуруги — <span class="busy">Занято</span><br>
+    👤Феликс Фатом — <span class="busy">Занято</span><br>
+    👤Ле Тьен Ким — <span class="free">Свободно</span><br>
+    Ундина — <span class="free">Свободно</span><br>
+    👤Лайла Росси — <span class="busy">Занято</span><br>
+    👤Макс Канте — <span class="free">Свободно</span><br>
+    👤Натаниэль Куртцберг — <span class="busy">Занято</span><br>
+    👤Марк Ансель — <span class="busy">Занято</span><br>
+    👤Сабрина — <span class="free">Свободно</span><br>
+    Сублим — <span class="need">★ Очень нужен</span>
+  </p>
 
-        <h3>🧞‍♂ Квами</h3>
-        <p>
-          Тикки — Занято<br>
-          Плагг — Занято<br>
-          Трикс — Занято<br>
-          Вайзз — Свободно<br>
-          Нууру — Занято<br>
-          Дуусу — Занято<br>
-          Поленн — Занято<br>
-          Ссас — Занято<br>
-          Каалки — Занято<br>
-          Роарр — Занято<br>
-          Дайззи — Свободно<br>
-          Баркк — Занято<br>
-          Орикко — Свободно<br>
-          Зигги — Свободно<br>
-          Стомпп — Занято<br>
-          Шуппу — Свободно<br>
-          Мулло — Занято<br>
-          Блафф — Свободно<br>
-          Лонг — Занято<br>
-          Лиири — Свободно
-        </p>
+  <h3>🧞‍♂ Квами</h3>
+  <p>
+    🧞‍♂Тикки — <span class="busy">Занято</span><br>
+    🧞‍♂Плагг — <span class="busy">Занято</span><br>
+    🧞‍♂Трикс — <span class="busy">Занято</span><br>
+    🧞‍♂Вайзз — <span class="free">Свободно</span><br>
+    🧞‍♂Нууру — <span class="free">Свободно</span><br>
+    🧞‍♂Дуусу — <span class="busy">Занято</span><br>
+    🧞‍♂Поленн — <span class="busy">Занято</span><br>
+    🧞‍♂Ссас — <span class="busy">Занято</span><br>
+    🧞‍♂Каалки — <span class="free">Свободно</span><br>
+    🧞‍♂Роарр — <span class="free">Свободно</span><br>
+    🧞‍♂Дайззи — <span class="free">Свободно</span><br>
+    🧞‍♂Баркк — <span class="busy">Занято</span><br>
+    🧞‍♂Орикко — <span class="free">Свободно</span><br>
+    🧞‍♂Зигги — <span class="free">Свободно</span><br>
+    🧞‍♂Стомпп — <span class="free">Свободно</span><br>
+    🧞‍♂Шуппу — <span class="free">Свободно</span><br>
+    🧞‍♂Мулло — <span class="busy">Занято</span><br>
+    🧞‍♂Флафф — <span class="busy">Занято</span><br>
+    🧞‍♂Лонг — <span class="free">Свободно</span><br>
+    🧞‍♂Лиири — <span class="free">Свободно</span>
+  </p>
 
-        <h3>👨‍👩‍👧 Взрослые / родители</h3>
-        <p>
-          Алек Катальди — Свободно<br>
-          Анарка Куффен — Свободно<br>
-          Джаггед Стоун — Занято<br>
-          Андре Буржуа — Свободно<br>
-          Одри Буржуа — Занято<br>
-          Боб Рот — Свободно<br>
-          Ван Фу — Занято<br>
-          Ван Чэн — Свободно
-        </p>
+  <h3>👨‍👩‍👧 Взрослые / родители</h3>
+  <p>
+    Габриэль Агрест — <span class="busy">Занято</span><br>
+    Эмили Агрест — <span class="busy">Занято</span><br>
+    Амели Грэмде Ванили — <span class="free">Свободно</span><br>
+    Натали Санкур — <span class="busy">Занято</span><br>
+    Сабин Чен — <span class="free">Свободно</span><br>
+    Том Дюпен — <span class="free">Свободно</span><br>
+    Джина Дюпен — <span class="free">Свободно</span><br>
+    Надья Шамак — <span class="free">Свободно</span><br>
+    Андре Буржуа — <span class="need">★ Очень нужен</span><br>
+    Одри Буржуа — <span class="busy">Занято</span><br>
+    Алек Катальди — <span class="free">Свободно</span><br>
+    Анарка Куффен — <span class="free">Свободно</span><br>
+    Джаггед Стоун — <span class="busy">Занято</span><br>
+    Боб Рот — <span class="free">Свободно</span><br>
+    Ван Фу — <span class="busy">Занято</span><br>
+    Ван Чэн — <span class="free">Свободно</span>
+  </p>
 
-        <h3>👹 Акуматизированные персонажи / злодеи</h3>
-        <p>
-          Кризалис — Занято<br>
-          Бражник — Свободно<br>
-          Маюра — Свободно<br>
-          Антибаг — Свободно<br>
-          Каменный Сердце — Свободно<br>
-          Леденец — Свободно<br>
-          Принцесса Фрейгет — Свободно<br>
-          Леди Вайфай — Свободно<br>
-          Штурмовик — Свободно<br>
-          Кукловод — Свободно<br>
-          Волпина — Свободно<br>
-          Робостус — Свободно<br>
-          Палач — Свободно<br>
-          Капитан Хардрок — Свободно<br>
-          Сайлентер — Свободно<br>
-          Сэндбой — Свободно<br>
-          Фараон — Свободно<br>
-          Таймбрейкер — Свободно<br>
-          Десперада — Свободно<br>
-          Коллекционер — Свободно<br>
-          Стайл Квин — Свободно<br>
-          Рефлекта — Свободно<br>
-          Илюзион — Свободно<br>
-          Гитарист — Свободно<br>
-          Охотница за квами — Свободно
+  <h3>😎 Параллельный мир (ЛБиСК)</h3>
+  <p>
+    🐞Токси Баг — <span class="busy">Занято</span><br>
+    🐈‍⬛Супер Коготь — <span class="need">★ Очень нужен</span><br>
+    🦋Эсперий — <span class="free">Свободно</span>
+  </p>
+
+  <h3>👹 Акуматизированные злодеи</h3>
+  <p>
+    Кризалис — <span class="busy">Занято</span><br>
+    Каменное Сердце — <span class="free">Свободно</span><br>
+    Леденец — <span class="free">Свободно</span><br>
+    Принцесса Ароматов — <span class="free">Свободно</span><br>
+    Леди Wi-Fi — <span class="free">Свободно</span><br>
+    Штурмовик — <span class="free">Свободно</span><br>
+    Кукловод — <span class="free">Свободно</span><br>
+    Волпина — <span class="free">Свободно</span><br>
+    Робостус — <span class="free">Свободно</span><br>
+    Палач — <span class="free">Свободно</span><br>
+    Капитан Хардрок — <span class="free">Свободно</span><br>
+    Сайлентер — <span class="free">Свободно</span><br>
+    Сэндбой — <span class="free">Свободно</span><br>
+    Фараон — <span class="free">Свободно</span><br>
+    Таймбрейкер — <span class="free">Свободно</span><br>
+    Сталкер — <span class="free">Свободно</span><br>
+    Коллекционер — <span class="free">Свободно</span><br>
+    Рефлекта — <span class="free">Свободно</span><br>
+    Илюзион — <span class="free">Свободно</span><br>
+    Гитар Виллан — <span class="free">Свободно</span><br>
+    Квами Бастер — <span class="free">Свободно</span>
+  </p>
+</div>
+
+      
         </p>
       </div>
     </div>
@@ -293,6 +323,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
